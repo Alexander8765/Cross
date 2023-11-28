@@ -143,6 +143,7 @@ a {
 
 .copyright {
 	padding-bottom: 24px;
+	width: 100%;
 	border-top: 1px solid rgba(230, 232, 236, 0.4);
 }
 
@@ -269,6 +270,9 @@ a {
 }
 
 @media screen and (max-width: 576px) {
+	.container-main-cross {
+		padding: 24px;
+	}
 	.container {
 		max-width: 540px;
 	}
